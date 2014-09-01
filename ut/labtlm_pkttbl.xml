@@ -1,0 +1,54 @@
+<!-- 
+Define default telemetry messages that are forwarded by to-lab. To-lab does
+not have any filtering feature.  Unused entries do not have to be populated.
+-->
+<pkt-tbl>
+
+  <!-- Entry: CFE_SB_MsgId_t, CFE_SB_Qos_t (Priority,Reliability), Buffer Limit -->
+
+  <!-- TO_HK_TLM_MID 0x0880 -->
+  <entry  stream-id="2176" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CI_HK_TLM_MID 0x0881 -->
+  <entry  stream-id="2177" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- TO_DATA_TYPES_MID 0x0890 -->
+  <entry  stream-id="2192" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_ES_HK_TLM_MID 0x0800 -->
+  <entry  stream-id="2048" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_EVS_HK_TLM_MID 0x0801 -->
+  <entry  stream-id="2049" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_SB_HK_TLM_MID 0x0803 -->
+  <entry  stream-id="2051" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_TBL_HK_TLM_MID 0x0804 -->
+  <entry  stream-id="2052" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_TIME_HK_TLM_MID 0x0805 -->
+  <entry  stream-id="2053" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_TIME_DIAG_TLM_MID 0x0806 -->
+  <entry  stream-id="2054" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_SB_STATS_TLM_MID 0x080A -->
+  <entry  stream-id="2058" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_TBL_REG_TLM_MID 0x080C -->
+  <entry  stream-id="2060" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_EVS_EVENT_MSG_MID 0x0808 -->
+  <entry  stream-id="2056" priority="0" reliability="0" buf-limit="32"/>
+
+  <!-- CFE_ES_SHELL_TLM_MID 0x080F -->
+  <entry  stream-id="2063" priority="0" reliability="0" buf-limit="32"/>
+
+  <!-- CFE_ES_APP_TLM_MID 0x080B -->
+  <entry  stream-id="2059" priority="0" reliability="0" buf-limit="4"/>
+
+  <!-- CFE_ES_MEMSTATS_TLM_MID 0x0810 -->
+  <entry  stream-id="2064" priority="0" reliability="0" buf-limit="4"/>
+
+</pkt-tbl>
